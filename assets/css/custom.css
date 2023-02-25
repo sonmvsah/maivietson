@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+.bg-pattem {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url('../images/pattern.png');
+    background-attachment: fixed;
+    /* --tw-bg-opacity: 1; */
+    /* background-color: rgba(37, 36, 34, var(--tw-bg-opacity)); */
+    mix-blend-mode: plus-lighter;
+}
+
+html {
+    font-family: 'Fahkwang', sans-serif !important;
+}
+
+.font-mvs {
+    font-family: 'Fahkwang', sans-serif !important;
+}
+
+.mvs-h-screen {
+    height: calc(100vh - 5rem);
+}
+
+.mvs-max-h-screen {
+    max-height: 900px;
+}
+
+.text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    opacity: .4;
+}
+
+.bg-dark {
+    --tw-bg-opacity: 1;
+    background-color: rgba(37, 36, 34, var(--tw-bg-opacity));
+}
+
+.mix-blend-light {
+    mix-blend-mode: lighten;
+}
+
+.mix-blend-plus-light {
+    mix-blend-mode: plus-lighter;
+}
+
+
+/**
+Cursor effect by Mai Viet Son
+*/
+
+
+/* 
+.cursor {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+    animation: cursorAnim 2s infinite alternate;
+    pointer-events: none;
+}
+
+.cursor::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border: 8px solid rgb(34, 32, 32);
+    border-radius: 50%;
+    opacity: 0.5;
+    top: 0px;
+    left: 0px;
+    animation: cursorAnim2 1.8s infinite alternate;
+}
+
+@keyframes cursorAnim {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.7);
+    }
+}
+
+@keyframes cursorAnim2 {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0.4);
+    }
+}
+
+@keyframes cursorAnim3 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(3);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes cursorAnim4 {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(6);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+} */
+
+.expand {
+    animation: cursorAnim4 1s forwards;
+    border: 1px solid rgb(36, 34, 34);
+    mix-blend-mode: difference;
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    transition: opacity .6s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.cursor-outer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 1px);
+}
+
+.cursor-inner {
+    background: #fff;
+    min-width: 12rem;
+    min-height: 12rem;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 0;
+    opacity: 1;
+    transition: transform .6s, border-radius 1s, opacity .6s;
+    transform: scale(.05) rotate(135deg);
+}
+
+.cursor-inner.lg,
+.cursor-inner.md,
+.cursor-inner.sm {
+    border-radius: 100%
+}
+
+.cursor-inner.sm {
+    transform: scale(.2) rotate(-135deg)
+}
+
+.cursor-inner.md {
+    transform: scale(.4) rotate(-135deg)
+}
+
+.cursor-inner.lg {
+    transform: scale(.8) rotate(-135deg)
+}
+
+@media(hover: none) {
+    .cursor {
+        display: none
+    }
+}
