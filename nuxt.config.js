@@ -27,7 +27,7 @@ export default {
   css: [
     "@/assets/css/main.css",
     "@/static/css/main.css",
-    "@/assets/css/custom.css",
+    "~/assets/css/custom.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
