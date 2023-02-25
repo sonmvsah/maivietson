@@ -22,7 +22,7 @@
                 <!-- <img class="absolute inset-x-0 bottom-0 p-5 mt-3 md:p-0 md:mt-0 md:scale-100" src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
  
                 <video-background
-                    class="bg-pattem 1absolute" 
+                    class="bg-pattem 1absolute max-h-[200px]" 
                     src="/images/bong.mp4"                    
                     style="max-height: 200px; height: 100vh;"
                     overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
@@ -38,7 +38,7 @@
                 <!-- <img class="absolute inset-x-0 bottom-0"  src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
                  <video-background
                     
-                    class="bg-pattem mix-blend-light mt-[7rem]" 
+                    class="bg-pattem mix-blend-light mt-[7rem] max-h-[400px]" 
                     src="/images/bong.mp4"                    
                     style="max-height: 400px; height: 100vh;"
                     overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
@@ -52,10 +52,7 @@
     </div>
     <!-- </Mvs-tada> -->
 </section>
-<!-- <p class="text-justify mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-full px-8 px-5 mt-10 md:px-32"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error assumenda a vero dolores, reiciendis maxime aliquid voluptas saepe recusandae, placeat dolorem libero labore distinctio sequi, cupiditate quae natus nobis adipisci?
-    dolor sit amet consectetur adipisicing elit. Error assumenda a vero dolores, reiciendis maxime aliquid voluptas saepe recusandae,  <NuxtLink class="text-purple-600" to="/">placeat dolorem</NuxtLink> placeat dolorem libero labore distinctio sequi, cupiditate quae natus nobis adipisci?
 
-</p> -->
         </div>
 </template>
 
