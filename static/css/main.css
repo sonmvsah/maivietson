@@ -44,87 +44,14 @@ html {
     mix-blend-mode: plus-lighter;
 }
 
+.d-container {
+    padding: 0 1.5rem !important;
+}
+
 
 /**
 Cursor effect by Mai Viet Son
 */
-
-
-/* 
-.cursor {
-    width: 20px;
-    height: 20px;
-    border: 1px solid white;
-    border-radius: 50%;
-    position: absolute;
-    transition-duration: 300ms;
-    transition-timing-function: ease-out;
-    animation: cursorAnim 2s infinite alternate;
-    pointer-events: none;
-}
-
-.cursor::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    position: absolute;
-    border: 8px solid rgb(34, 32, 32);
-    border-radius: 50%;
-    opacity: 0.5;
-    top: 0px;
-    left: 0px;
-    animation: cursorAnim2 1.8s infinite alternate;
-}
-
-@keyframes cursorAnim {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(0.7);
-    }
-}
-
-@keyframes cursorAnim2 {
-    from {
-        transform: scale(1);
-    }
-    to {
-        transform: scale(0.4);
-    }
-}
-
-@keyframes cursorAnim3 {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(3);
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-}
-
-@keyframes cursorAnim4 {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(6);
-    }
-    100% {
-        transform: scale(1);
-        opacity: 0;
-    }
-} */
-
-.expand {
-    animation: cursorAnim4 1s forwards;
-    border: 1px solid rgb(36, 34, 34);
-    mix-blend-mode: difference;
-}
 
 .cursor {
     position: fixed;

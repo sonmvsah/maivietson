@@ -21,7 +21,7 @@ export default {
 <style>
     /** */
     .d-container {
-        padding: 0 8rem;
+        padding: 0 1.5rem;
     }
     
 </style>
