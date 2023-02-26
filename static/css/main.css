@@ -48,6 +48,13 @@ html {
     padding: 0 1.5rem !important;
 }
 
+.vue-responsive-videobg video {
+    max-width: 230px !important;
+    max-height: 230px;
+    margin-top: 12rem;
+    object-fit: contain !important
+}
+
 
 /**
 Cursor effect by Mai Viet Son
