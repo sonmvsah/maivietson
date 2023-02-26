@@ -62,7 +62,7 @@
          <div class="basis-1/3 md:basis-1/3 md:flex flex-row">
             <Nuxt-link
                 class="my-auto mx-auto mt-8 d-container cursor-pointer scale-100 md:scale-[0.95] md:hidden" 
-                to="/" 
+                to="/about" 
                 tag="img"
                 :src="`/images/icons-svg/menu-mob.svg`"
             >
