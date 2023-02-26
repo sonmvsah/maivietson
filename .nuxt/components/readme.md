@@ -15,6 +15,6 @@ You can directly use them in pages and other components without the need to impo
 - `<NuxtLogo>` | `<nuxt-logo>` (components/NuxtLogo.vue)
 - `<TopBar>` | `<top-bar>` (components/TopBar.vue)
 - `<Tutorial>` | `<tutorial>` (components/Tutorial.vue)
+- `<FooterContainer>` | `<footer-container>` (components/footer/FooterContainer.vue)
 - `<HomeProducts>` | `<home-products>` (components/home/HomeProducts.vue)
 - `<HomeSlider>` | `<home-slider>` (components/home/HomeSlider.vue)
-- `<FooterContainer>` | `<footer-container>` (components/footer/FooterContainer.vue)

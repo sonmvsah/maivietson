@@ -26,13 +26,13 @@
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
   },
+  "FooterContainer": {
+    "description": "Auto imported from components/footer/FooterContainer.vue"
+  },
   "HomeProducts": {
     "description": "Auto imported from components/home/HomeProducts.vue"
   },
   "HomeSlider": {
     "description": "Auto imported from components/home/HomeSlider.vue"
-  },
-  "FooterContainer": {
-    "description": "Auto imported from components/footer/FooterContainer.vue"
   }
 }
