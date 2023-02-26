@@ -48,7 +48,7 @@ html {
     padding: 0 1.5rem !important;
 }
 
-.vue-responsive-videobg video {
+.mobile .vue-responsive-videobg video {
     max-width: 299px!important;
     max-height: 272px;
     padding-right: 2rem;
