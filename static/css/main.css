@@ -49,10 +49,9 @@ html {
 }
 
 .vue-responsive-videobg video {
-    max-width: 230px !important;
-    max-height: 230px;
-    margin-top: 12rem;
-    object-fit: contain !important
+    max-width: 299px!important;
+    max-height: 272px;
+    padding-right: 2rem;
 }
 
 
