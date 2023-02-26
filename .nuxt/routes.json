@@ -1,0 +1,23 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/yon/Desktop/nuxt-js/maivietson/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_feba9c68"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/yon/Desktop/nuxt-js/maivietson/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_bf4ae6de"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/yon/Desktop/nuxt-js/maivietson/pages/_slug/index.vue",
+    "chunkName": "pages/_slug/index",
+    "_name": "_5a3b170c"
+  }
+]
