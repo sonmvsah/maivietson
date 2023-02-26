@@ -22,7 +22,7 @@
                 <!-- <img class="absolute inset-x-0 bottom-0 p-5 mt-3 md:p-0 md:mt-0 md:scale-100" src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
  
                 <video-background
-                    class="bg-pattem 1absolute max-h-[200px] mobile" 
+                    class="1bg-pattem 1absolute max-h-[200px] mobile" 
                     src="/images/bong.mp4"                    
                     style="max-height: 200px; height: 100vh;"
                     overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
@@ -38,7 +38,7 @@
                 <!-- <img class="absolute inset-x-0 bottom-0"  src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
                  <video-background
                     
-                    class="bg-pattem mix-blend-light mt-[7rem] max-h-[400px]" 
+                    class="1bg-pattem mix-blend-light mt-[7rem] max-h-[400px]" 
                     src="/images/bong.mp4"                    
                     style="max-height: 400px; height: 100vh;"
                     overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
