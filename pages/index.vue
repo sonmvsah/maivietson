@@ -18,7 +18,7 @@
 
                 </h1>
 
-                <div class="md:hidden md:basis-1/2 text-center flex max-h-[375px] mvs-h-screen">
+                <div class="md:hidden md:basis-1/2 text-center flex 1max-h-[375px] mvs-h-screen 1mt-[7rem] max-h-[200px]">
                 <!-- <img class="absolute inset-x-0 bottom-0 p-5 mt-3 md:p-0 md:mt-0 md:scale-100" src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
  
                 <video-background
@@ -34,7 +34,7 @@
                 </div>
 
             </div>
-            <div class="absolute hidden md:basis-1/2 md:block mvs-h-screen mvs-max-h-screen  relative" >
+            <div class="absolute hidden md:basis-1/2 md:block mvs-h-screen 1mvs-max-h-screen  relative mt-[7rem] max-h-[400px]" >
                 <!-- <img class="absolute inset-x-0 bottom-0"  src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
                  <video-background
                     
