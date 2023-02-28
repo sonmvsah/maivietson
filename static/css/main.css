@@ -5,11 +5,14 @@
     background-attachment: fixed;
     /* --tw-bg-opacity: 1; */
     /* background-color: rgba(37, 36, 34, var(--tw-bg-opacity)); */
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
 }
 
 html {
     font-family: 'Fahkwang', sans-serif !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background-image: url('../images/pattern.png');
+    background-attachment: fixed;
 }
 
 .font-mvs {
@@ -42,6 +45,10 @@ html {
 
 .mix-blend-plus-light {
     mix-blend-mode: plus-lighter;
+}
+
+.mix-blend-bg {
+    mix-blend-mode: color-dodge;
 }
 
 .d-container {

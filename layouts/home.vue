@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-pattem 1h-screen" v-on:mousemove="initCursor()">
+    <div class="bg-pattem" v-on:mousemove="initCursor()">
         <Mheader />
         
             <Nuxt />
@@ -13,8 +13,8 @@
 <script>
 import TweenMax from "~/assets/js/TweenMax.min.js";
 import TweenLite from "~/assets/js/TweenLite.min.js";
-
 export default {
+
     data() {
         return {
             clientX: -100,
@@ -122,6 +122,9 @@ export default {
                 size: "md"
             }, {
                 selector: "[data-video-size]",
+                size:"md"
+            },{
+                selector: ".expand",
                 size:"md"
             }]
         },

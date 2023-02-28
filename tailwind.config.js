@@ -6,6 +6,7 @@ module.exports = {
     "./pages/**/*.vue",
     "./plugins/**/*.{js,ts}",
     "./nuxt.config.{js,ts}",
+    "./node_modules/flowbite.{js,ts}",
   ],
   theme: {
     extend: {
@@ -21,6 +22,15 @@ module.exports = {
         swhite: "#FFF",
       },
     },
+    screens: {
+      ms: "320px",
+      mm: "375px",
+      ml: "425px",
+      tab: "768px",
+      md: "1024px",
+      labl: "1440px",
+      full: "2560px",
+    },
   },
-  plugins: [],
+  plugins: [require("flowbite")],
 };
