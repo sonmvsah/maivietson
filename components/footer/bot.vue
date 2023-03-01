@@ -82,12 +82,6 @@
 
 export default {
     // name: 'HomeTable',
-   data() {
-      return {
-        posts: []
-      }
-    },
-
 
 }
 </script>

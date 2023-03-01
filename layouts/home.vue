@@ -1,17 +1,17 @@
 <template>
-    <div class="bg-pattem" v-on:mousemove="initCursor()">
+    <div class="bg-pattem">
+
         <Mheader />
         
             <Nuxt />
 
         <Mfooter />
-        
     </div>
 </template>
 
 
 <script>
-import TweenMax from "~/assets/js/TweenMax.min.js";
+// import TweenMax from "~/assets/js/TweenMax.min.js";
 import TweenLite from "~/assets/js/TweenLite.min.js";
 export default {
 
@@ -30,6 +30,8 @@ export default {
     mounted: function() {
         this.initCursor();
         this.initHovers();
+        //   this.initClientOnlyComp();
+
     },
     methods: {
         initCursor() {
@@ -143,7 +145,9 @@ export default {
         isMobile () {
             var t = navigator.userAgent;
             return /Android|Mobi/i.test(t)
-        }
+        },
+
+
     }
 
 
@@ -152,4 +156,7 @@ export default {
 
 <style>
     /** */
+    html {
+   scroll-behavior: smooth;
+    }
 </style>

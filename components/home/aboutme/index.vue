@@ -40,31 +40,6 @@
 
 export default {
     // name: 'HomeTable',
-   data() {
-      return {
-        posts: []
-      }
-    },
-    // activated() {
-    //   // Call fetch again if last fetch more than 30 sec ago
-    //   if (this.$fetchState.timestamp <= Date.now() - 30000) {
-    //     this.$fetch()
-    //   }
-    // },
-    async fetch() {
-      this.posts = await fetch('https://tapchitrithuc.com/wp-json/wp/v2/posts?_embed').then(res =>
-        res.json()
-      )
-
-    },
-
-
-
 
 }
 </script>
-
-<style>
-   @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
-
-</style>

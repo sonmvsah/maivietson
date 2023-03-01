@@ -14,15 +14,6 @@
 
 export default {
     // name: 'HomeTable',
-   data() {
-      return {
-        posts: []
-      }
-    }
+
 }
 </script>
-
-<style>
-   @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
-
-</style>

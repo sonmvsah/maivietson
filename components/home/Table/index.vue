@@ -3,7 +3,7 @@
       
     <!-- Section 1 -->
     <section class="relative 1mvs-h-screen bg-transparent  px-5  mt-20 md:mt-0 md:pt-20 md:px-32 1md:mb-20 min-h-screen my-auto">
-        <div class="mx-auto">
+        <div class="mx-auto expand">
             <h1 class="text-4xl md:text-6xl text-second-600 text-center font-extrabold">
             Cái Chiiiii!
             </h1>
@@ -80,8 +80,3 @@ export default {
 
 }
 </script>
-
-<style>
-   @import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css";
-
-</style>
