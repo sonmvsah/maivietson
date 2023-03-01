@@ -21,6 +21,9 @@ module.exports = {
         sblack: "#000",
         swhite: "#FFF",
       },
+      screens: {
+        xs: "320px",
+      },
     },
     // screens: {
     //   ms: "320px",
