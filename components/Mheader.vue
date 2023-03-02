@@ -1,6 +1,6 @@
 <template>
-    <header class="flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-100 bg-no-repeat bg-center mvs-header-bg px-0 md:px-24 mix-blend-plus-light">
-        <div class="basis-1/3 flex flex-row">
+    <header class="flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-100 bg-no-repeat bg-center mvs-header-bg px-0 md:px-24 mix-blend-plus-light space-x-0">
+        <div class="basis-1/3 flex flex-row justify-center">
             <Nuxt-link
                 class="my-auto mx-auto 1d-container cursor-pointer scale-75 mt-[0.4rem] md:scale-[0.95]" 
                 to="/"
@@ -8,36 +8,26 @@
                 :src="require('~/assets/logo-mvs-white.svg')"
 
             >
-            </Nuxt-link>
-
-            <!-- <Nuxt-link
-                class="my-auto d-container cursor-pointer hidden md:block" 
-                to="/" 
-                tag="img"
-                :src="`/images/icons-svg/grid-mvs.svg`"
-            >
-            </Nuxt-link> -->
-
-           
+            </Nuxt-link> 
 
             <Nuxt-link
-            class="my-auto d-container text-white hidden md:block" 
+            class="text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
             to="/"
             >
-                Trang chủ
+                TRANG CHỦ
             </Nuxt-link>
 
             <Nuxt-link
-                class="my-auto d-container text-white hidden md:block" 
+                class="text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
                 to="/services"
             >
-            Dịch vụ
+            DỊCH VỤ
             </Nuxt-link>
              <Nuxt-link
-                class="my-auto d-container text-white hidden md:block" 
+                class=" text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
                 to="/about"
             >
-            Về tôi
+            VỀ TÔI
             </Nuxt-link>
         </div>
         <div 
@@ -51,9 +41,7 @@
                         <svg aria-hidden="true" class="w-5 h-5 text-[#59B5FF] dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                     </div>
                     <input type="search" id="default-search" class="bg-second-800 placeholder-[#59B5FF] block w-full p-4 pl-20 text-sm text-white border-none rounded-none md:rounded-lg focus:ring-blue-500 focus:border-blue-500" placeholder="Gõ tên themes, plugin bạn cần tìm..." required />
-                    <!-- <div class="text-white absolute right-2.5 bottom-0.5 inset-y-0 items-center pl-3 my-auto pointer-events-none flex">
 
-                    </div> -->
                 </div>
             </form>
         </div>
@@ -69,32 +57,34 @@
             </Nuxt-link>
 
             <Nuxt-link
-            class="my-auto d-container text-white hidden md:block" 
-            to="/themes"
+            class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
+            to="/products"
             >
-            Themes
+            SẢN PHẨM
             </Nuxt-link>
 
             <Nuxt-link
-                class="my-auto d-container text-white hidden md:block" 
-                to="/plugins"
-            >
-            Plugins
-            </Nuxt-link>
-
-            <Nuxt-link
-            class="my-auto d-container text-white hidden md:block" 
+            class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
             to="/blog"
             >
-            Blog
+            BLOG
             </Nuxt-link>
             <Nuxt-link
-            class="my-auto d-container text-white hidden md:block" 
+            class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
             to="/lien-he"
             >
-            Liên hệ
+            LIÊN HỆ
             </Nuxt-link>
+             <div class="my-auto">
+                 <Nuxt-link
+                class="  hidden md:block my-auto mx-auto d-container cursor-pointer 1mt-[0.4rem] 1md:scale-[0.95]" 
+                to="/"
+                tag="img"
+                :src="'/images/icons-svg/menu-mob.svg'"
 
+            >
+            </Nuxt-link>
+            </div>
 
             
         </div>

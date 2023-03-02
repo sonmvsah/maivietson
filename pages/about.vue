@@ -1,16 +1,17 @@
 <template>
-    <div class="bg-gradient-to-b from-[#4187BF] to-[#FFFFFF]">
+    <div class="bg-gradient-to-b from-second-600 to-white">
         
      
         <!-- Section 1 -->
-        <section class="relative w-full bg-gradient-to-b from-[#4187BF] to-[#FFFFFF] 1bg-dark 1bg-white px-5 mt-0 md:mt-0 md:px-32 z-0  mvs-h-screen  md:mvs-max-h-screen bg-pattem">
-            <!-- <div class="w-full h-32 bg-gradient-to-b from-gray-100 to-white"></div> -->
-            <!-- <Mvs-tada> -->
-            <div class="relative w-full px-5 mx-auto md:px-10 max-w-7xl  bg-transparent rounded-xl">
+        <section class="bg-pattem">
+            <div class="mx-auto bg-transparent bg-pattem rounded-xl">
                 <!-- <HomeProducts /> -->
+                <AboutTrustme />
+                <AboutTimelineItem />
+                <!-- <AboutUs /> -->
+
                 
             </div>
-            <!-- </Mvs-tada> -->
         </section>
 
         </div>

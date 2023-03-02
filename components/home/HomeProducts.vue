@@ -1,18 +1,12 @@
 <template>
-  <div class="px-5 mt-10 md:px-32">
+  <div class="px-5 md:px-32">
       
 
     <!-- Section 1 -->
-    <section class="relative w-full bg-white">
-        <div class="absolute w-full h-32 bg-gradient-to-b from-gray-100 to-white rounded-xl"></div>
-        <div class="relative w-full px-5 py-10 mx-auto sm:py-12 md:py-16 md:px-10 max-w-7xl ">
-            <h1 class="mb-1 text-4xl font-extrabold leading-none text-gray-900 lg:text-5xl xl:text-6xl sm:mb-3"><a href="#_">Sự Thật Cuộc Bức Hại</a></h1>
-            <p class="text-lg font-medium text-gray-500 sm:text-2xl">Hơn 20 năm bị bức hại, Người tập Pháp Luân Công không những không giảm mà còn tăng nhanh và phổ biến rộng khắp thế giới, không nơi nào không biết đến.</p>
+    <section class="max-h-screen">
+        <div class="px-5 py-10 mx-auto sm:py-12 md:py-16 md:px-10 max-w-7xl ">
 
-                    <div class="w-full px-5 py-6 mx-auto space-y-5 sm:py-8 md:py-12 sm:space-y-8 md:space-y-16 max-w-7xl">
-
-                        <!-- <div class="flex grid grid-cols-12 pb-10 sm:px-5 md:gap-x-8 gap-y-16"> -->
-                             
+                
                              
                             <Transition-group
                                     appear
@@ -54,11 +48,7 @@
 
                                     <p class="pt-2 text-xs font-medium"><a href="#_" class="mr-1 underline" v-dompurify-html="post._embedded.author['0'].name">Mary Jane</a> · <span class="mx-1">April 17, 2021</span> · <span class="mx-1 text-gray-600">3 min. read</span></p>
                                 </div>
-
                         </Transition-group>
-
-                        <!-- </div> -->
-                    </div>
 
         </div>
     </section>

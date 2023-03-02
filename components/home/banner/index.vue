@@ -1,5 +1,5 @@
 <template>
-        <div class="bg-gradient-to-b from-second-600 to-sblack">
+        <div class="bg-gradient-to-b from-second-600 to-sblack mvs-h-screen">
 
             <section class="relative w-full bg-gradient-to-b from-second-600 to-sblack 1bg-dark 1bg-white px-5 mt-0 md:mt-0 md:px-32 z-0  mvs-h-screen  md:mvs-max-h-screen bg-pattem mix-blend-bg 1mix-blend-light">
                 <div class="relative w-full px-5 mx-auto md:px-10 max-w-7xl  bg-transparent rounded-xl">
@@ -13,7 +13,6 @@
                             </h1>
 
                             <div class="md:hidden md:basis-1/2 text-center 1flex 1max-h-[375px] mvs-h-screen max-h-[50vh] sm:max-h-[200px] bg-pattem">
-                            <!-- <img class="absolute inset-x-0 bottom-0 p-5 mt-3 md:p-0 md:mt-0 md:scale-100" src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
             
                             <video-background
                                 class="bg-pattem 1absolute mix-blend-light1 mix-blend-bg max-h-[30vh] 1max-h-[200px] mobile" 
@@ -29,7 +28,6 @@
 
                         </div>
                         <div class="absolute hidden md:basis-1/2  md:block mvs-h-screen 1mvs-max-h-screen  relative mt-[7rem] max-h-[400px] min-h-[400px] bg-pattem" >
-                            <!-- <img class="absolute inset-x-0 bottom-0"  src="/images/home/banner-right-image-full.png" alt="" srcset=""> -->
                             <video-background
                                 
                                 class="bg-pattem 1mix-blend-light mix-blend-bg 1mt-[7rem] max-h-[400px]" 
@@ -44,8 +42,12 @@
                     </div>
                     
                 </div>
-               
+                           <HomeBannerCta />
+
             </section>
+
+       
+
        
         </div>
 </template>

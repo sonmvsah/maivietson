@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-pattem 1h-screen" v-on:mousemove="initCursor()">
+    <div class="bg-pattem">
         <Mheader />
         
             <Nuxt />

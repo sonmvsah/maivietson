@@ -2,6 +2,7 @@
     <div>
         <HomeBanner />
         <HomeTrustme />
+        <!-- <HomeAboutme /> -->
 
         <HomeTable />
         <!-- <HomeAboutme /> -->

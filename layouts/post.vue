@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-pattem 1h-screen" v-on:mousemove="initCursor()">
+    <div class="bg-pattem">
         <Mheader />
         
             <Nuxt />
@@ -11,7 +11,7 @@
 
 
 <script>
-import TweenMax from "~/assets/js/TweenMax.min.js";
+// import TweenMax from "~/assets/js/TweenMax.min.js";
 import TweenLite from "~/assets/js/TweenLite.min.js";
 
 export default {

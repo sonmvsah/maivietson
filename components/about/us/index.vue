@@ -2,9 +2,9 @@
   <div class="bg-pattem">
       
     <!-- Section 1 -->
-    <section class="relative mvs-h-screen bg-transparent  px-5 pt-20 md:px-32">
+    <section class="relative mvs-h-screen bg-transparent pt-20">
         <div class="mx-auto">
-            <h1 class="text-3xl text-second-600 text-center font-extrabold">
+            <h1 class="text-3xl text-white text-center font-extrabold">
             Sẵn sàng tối ưu UX - UI của website ?
             </h1>
             <p class="text-lg text-second-gray text-center">Theo dõi ngay các bước dưới đây...</p>
