@@ -26,7 +26,7 @@
                             <video
                                 class="bg-pattem mix-blend-light1 mix-blend-bg max-h-[30vh] 1max-h-[200px] mobile" 
                                 overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
-                                1width="320" 1height="240" autoplay loop="loop" muted="muted" 
+                                autoplay loop="loop" muted="muted" 
                             >
                                 <source src="/images/bong.mp4" type="video/mp4">
 
