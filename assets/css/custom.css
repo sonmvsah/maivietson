@@ -5,7 +5,7 @@
     background-attachment: fixed;
     /* --tw-bg-opacity: 1; */
     /* background-color: rgba(37, 36, 34, var(--tw-bg-opacity)); */
-    mix-blend-mode: plus-lighter;
+    mix-blend-mode: color-dodge;
 }
 
 html {
