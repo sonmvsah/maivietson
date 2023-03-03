@@ -14,7 +14,7 @@
 
                             <div class="md:hidden md:basis-1/2 text-center 1flex 1max-h-[375px] mvs-h-screen max-h-[50vh] sm:max-h-[200px] bg-pattem">
             
-                            <video-background
+                            <!-- <video-background
                                 class="bg-pattem 1absolute mix-blend-light1 mix-blend-bg max-h-[30vh] 1max-h-[200px] mobile" 
                                 src="/images/bong.mp4"                    
                                 style="1max-height: 200px; height: 100vh;"
@@ -22,7 +22,18 @@
 
                             >
 
-                            </video-background>
+                            </video-background> -->
+                            <video
+                                class="bg-pattem 1absolute mix-blend-light1 mix-blend-bg max-h-[30vh] 1max-h-[200px] mobile" 
+                                src="/images/bong.mp4"                    
+                                1style="1max-height: 200px; height: 100vh;"
+                                overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
+                                1width="320" 1height="240" autoplay 
+                            >
+                                <source src="/images/bong.mp4" type="video/mp4">
+
+                            </video>
+
 
                             </div>
 
