@@ -28,7 +28,7 @@
                                 src="/images/bong.mp4"                    
                                 1style="1max-height: 200px; height: 100vh;"
                                 overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
-                                1width="320" 1height="240" autoplay 
+                                1width="320" 1height="240" autoplay loop="loop" muted="muted" 
                             >
                                 <source src="/images/bong.mp4" type="video/mp4">
 
