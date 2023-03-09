@@ -7,7 +7,7 @@
                                 <h1 class="mb-1 text-center text-4xl text-[1.93rem] font-extrabold leading-none text-white lg:text-7xl xl:text-7xl sm:mb-3 text-second-gray  text-syellow bg-clip-text bg-gradient-to-b from-gray-600 to-[#4187BF] mix-blend-bg  stroke-slate-50 text-stroke md:leading-6 lg:leading-[1.2em] xl:leading-[1.2em] z-10">TRẢI NGHIỆM  <br> #1 CHIẾC <br>WEB LẠ !</h1>
                             </div>
 
-                            <div class="col-span-12 md:col-span-6 order-2 absolute md:relative 1w-full 1right-0 z-0">
+                            <div class="col-span-12 md:col-span-6 order-2 absolute md:relative 1w-full 1right-0 z-0 mix-blend-bg">
                                 <video
                                         class="bg-pattem mix-blend-bg max-h-[50vh] 1max-h-[200px] mobile bg-pattem z-0" 
                                         overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
