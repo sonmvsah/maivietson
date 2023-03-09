@@ -1,5 +1,5 @@
 <template>
-  <div class="md:pb-10 pb-0 mvs-h-screen flex flex-col justify-center my-auto md:pt-10">
+  <div class="md:pb-10 pb-0 mvs-h-screen flex flex-col justify-centermy-auto md:pt-10">
       
     <section class="relative mvs-h-screen bg-transparent mb-32 md:mb-32 min-h-screen md:min-h-full mvs-h-screen">
        
