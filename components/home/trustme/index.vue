@@ -1,7 +1,7 @@
 <template>
-  <div class="md:bg-transparent 1bg-pattem min-h-screen md:pb-10 pb-0   max-h-screen flex flex-col justify-center">
+  <div class="md:bg-transparent min-h-screen md:pb-10 pb-0   max-h-screen flex flex-col justify-center">
       
-    <section class="relative mvs-h-screen bg-transparent  px-5 mb-32 md:mb-32 md:px-32 min-h-screen md:min-h-full 1bg-pattem">
+    <section class="container relative mvs-h-screen bg-transparent px-5 mb-32 md:mb-32 min-h-screen md:min-h-full mx-auto">
        
         <div class="flex flex-col-reverse md:flex-row justify-between md:ml-20  md:mb-20 mt-20 md:mt-0 max-h-screen">
            
@@ -26,7 +26,6 @@
                 
               </Nuxt-link>
             </div>
-            <!-- <p class="text-3xl text-gray-500 text-center">Thực ra hình ảnh tạo nên cái hồn của website, giúp website chân thực hơn, sống động hơn,... Nhưng cần dùng đúng cách</p> -->
           </div>
           <img class="hidden md:block basis-1/2 h-auto ml-20 md:ml-0 pb-10" src="/images/home/banner-right-image-full.png" alt="" srcset="">
         </div>

@@ -1,5 +1,6 @@
 <template>
-    <header class="flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-100 bg-no-repeat bg-center mvs-header-bg px-0 md:px-24 mix-blend-plus-light space-x-0">
+    <header class="flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-100 bg-no-repeat bg-center mvs-header-bg px-0 mix-blend-plus-light space-x-0">
+        <div class="md:container mx-auto flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-full bg-no-repeat bg-center px-0 space-x-0 justify-between md:justify-around">
         <div class="basis-1/3 flex flex-row justify-center">
             <Nuxt-link
                 class="my-auto mx-auto 1d-container cursor-pointer scale-75 mt-[0.4rem] md:scale-[0.95]" 
@@ -11,20 +12,20 @@
             </Nuxt-link> 
 
             <Nuxt-link
-            class="text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
+            class="text-[0.7rem] tracking-widest	 my-auto d-container text-white hidden md:block" 
             to="/"
             >
                 TRANG CHỦ
             </Nuxt-link>
 
             <Nuxt-link
-                class="text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
+                class="text-[0.7rem] tracking-widest	 my-auto d-container text-white hidden md:block" 
                 to="/services"
             >
             DỊCH VỤ
             </Nuxt-link>
              <Nuxt-link
-                class=" text-xs tracking-widest	 my-auto d-container text-white hidden md:block" 
+                class=" text-[0.7rem] tracking-widest	 my-auto d-container text-white hidden md:block" 
                 to="/about"
             >
             VỀ TÔI
@@ -57,14 +58,14 @@
             </Nuxt-link>
 
             <Nuxt-link
-            class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
+            class="text-[0.7rem] tracking-widest my-auto d-container text-white hidden md:block" 
             to="/products"
             >
             SẢN PHẨM
             </Nuxt-link>
 
             <Nuxt-link
-            class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
+            class="text-[0.7rem] tracking-widest my-auto d-container text-white hidden md:block" 
             to="/blog"
             >
             BLOG
@@ -89,7 +90,7 @@
             
         </div>
  
-
+    </div>
         
 
 

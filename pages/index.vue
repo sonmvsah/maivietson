@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <HomeBanner />
+    <div class="bg-pattem">
+        <HomeSliders />
+        <!-- <HomeBanner /> -->
         <HomeTrustme />
         <!-- <HomeAboutme /> -->
 
@@ -10,8 +11,10 @@
 </template>
 
 <script>
-export default {
-    name: 'Home',
+
+export default 
+  {
+    // name: 'Home',
     layout: 'home',
 }
 </script>

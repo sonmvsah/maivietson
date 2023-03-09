@@ -20,6 +20,7 @@ module.exports = {
         "second-gray": "#b9c4c9",
         sblack: "#000",
         swhite: "#FFF",
+        syellow: "#F0E68C",
       },
       screens: {
         xs: "320px",

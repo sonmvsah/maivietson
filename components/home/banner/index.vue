@@ -7,7 +7,7 @@
                     >
                         <div class="md:basis-1/2">
                         
-                            <h1 class="mb-1 text-center text-4xl font-extrabold leading-none text-white lg:text-5xl xl:text-6xl sm:mb-3 1text-stroke 1text-stroke-mvs pt-[5rem] sm:pt-[5rem] md:pt-[8rem]  1text-transparent text-second-gray 1text-[#3cfd7c] bg-clip-text bg-gradient-to-b from-gray-600 to-[#4187BF] mix-blend-light">Chân dung khách hàng mang lại cho bạn quyết định về mặt thiết kế UI - UX
+                            <h1 class="mb-1 text-center text-4xl font-extrabold leading-none text-white lg:text-5xl xl:text-6xl sm:mb-3 pt-[5rem] sm:pt-[5rem] md:pt-[8rem]  text-second-gray  text-syellow bg-clip-text bg-gradient-to-b from-gray-600 to-[#4187BF] mix-blend-light">Chân dung khách hàng mang lại cho bạn quyết định về mặt thiết kế UI - UX
 
 
                             </h1>
