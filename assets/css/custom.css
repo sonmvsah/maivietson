@@ -37,7 +37,7 @@ html {
 }
 
 .mix-blend-light {
-    mix-blend-mode: lighten;
+    mix-blend-mode: lighten !important;
 }
 
 .mix-blend-plus-light {
