@@ -1,6 +1,6 @@
 <template>
-        <div class="bg-gradient-to-b from-second-600 to-transparent 1to-swhite mvs-h-screen mvs-max-h-screen ">
-            <div class="container flex flex-col mx-auto justify-center mvs-h-screen 1mvs-max-h-screen my-auto">
+        <div class="bg-gradient-to-b from-second-600 to-sblack mvs-h-screen mvs-max-h-screen">
+            <div class="container flex flex-col mx-auto justify-between mvs-h-screen 1mvs-max-h-screen my-auto">
                 <div class="relative my-auto">
                     <section class="container grid grid-cols-12 items-center mx-auto md:px-[2.5rem]">
                             <div class="col-span-12 md:col-span-6 order-1">
@@ -8,22 +8,21 @@
                             </div>
 
                             <div class="col-span-12 md:col-span-6 order-2 absolute md:relative 1w-full 1right-0 z-0 mix-blend-bg mix-blend-light">
-                                <img class="1hidden md:block basis-1/2 h-auto opacity-50 md:opacity-100 1ml-20 md:ml-0 pb-10" src="/images/home/banner-right-image-transparent-bot.png" alt="" srcset="">
-                                <!-- <video
+                                <video
                                         class="bg-pattem mix-blend-bg mix-blend-light max-h-[50vh] 1max-h-[200px] mobile bg-pattem z-0" 
                                         overlay="rgba(37, 36, 34, var(--tw-bg-opacity))" 
                                         autoplay loop="loop" muted="muted" 
                                     >
-                                        <source src="/images/bong.mp4" type="video/mp4">
+                                        <source src="/images/cua-so.mp4" type="video/mp4">
 
-                                    </video> -->
+                                    </video>
                             </div>
                             <!-- <HomeSlidersCta /> -->
 
                     </section>
                 </div>
 
-                <div  class="px-5 flex flex-wrap items-end mb-8 lg:mb-12 1lg:mt-[-22rem]">
+                <div  class="px-5 flex flex-wrap items-end mb-8 lg:mb-12 ">
                     <div  class="w-full md:w-5/12">
                         <div  class="mb-3 text-gray-300 md:mb-6 caption">
                             <span  class="text-orange-600">MAIVIETSON.COM </span>

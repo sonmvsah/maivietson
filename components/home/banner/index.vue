@@ -1,5 +1,5 @@
 <template>
-        <div class="bg-gradient-to-b from-second-600 to-sblack mvs-h-screen">
+        <div class="bg-gradient-to-b from-second-600 to-swhite mvs-h-screen">
 
             <section class="relative w-full bg-gradient-to-b from-second-600 to-sblack 1bg-dark 1bg-white px-5 mt-0 md:mt-0 md:px-32 z-0  mvs-h-screen  md:mvs-max-h-screen bg-pattem mix-blend-bg 1mix-blend-light">
                 <div class="relative w-full px-5 mx-auto md:px-10 max-w-7xl  bg-transparent rounded-xl">

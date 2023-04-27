@@ -2,7 +2,7 @@
     <div class="bg-pattem">
         <HomeSliders />
         <!-- <HomeBanner /> -->
-        <HomeTrustme />
+        <!-- <HomeTrustme /> -->
         <!-- <HomeAboutme /> -->
 
         <HomeTable />

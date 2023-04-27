@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-pattem">
+    <div class="1bg-pattem">
 
         <Mheader />
         

@@ -11,16 +11,17 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "plc-primary": "#124f9a",
-        "primary-600": "#4187BF",
-        "primary-800": "#3A79AB",
+        "plc-primary": "#4187BF",
+        "primary-100": "#D7EDFF",
+        "primary-600": "#BF7754",
+        "primary-800": "#283655",
         "primary-text": "#8EBA43",
-        "second-600": "#257985",
-        "second-800": "#2B616D",
+        "second-600": "#4187BF",
+        "second-800": "#3A79AB",
         "second-gray": "#b9c4c9",
-        sblack: "#000",
+        sblack: "#363636",
         swhite: "#FFF",
-        syellow: "#F0E68C",
+        syellow: "#AF4425",
       },
       screens: {
         xs: "320px",
@@ -38,3 +39,11 @@ module.exports = {
   },
   plugins: [require("flowbite")],
 };
+
+// "plc-primary": "#124f9a",
+// "primary-600": "#4187BF",
+// "primary-800": "#3A79AB",
+// "primary-text": "#8EBA43",
+// "second-600": "#257985",
+// "second-800": "#2B616D",
+// "second-gray": "#b9c4c9",

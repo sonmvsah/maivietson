@@ -5,7 +5,8 @@
     background-attachment: fixed;
     /* --tw-bg-opacity: 1; */
     /* background-color: rgba(37, 36, 34, var(--tw-bg-opacity)); */
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
+    mix-blend-mode: lighten;
 }
 
 html {
@@ -27,6 +28,13 @@ html {
     max-height: 900px;
 }
 
+.mb-text-stroke {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    opacity: .9;
+}
+
 .text-stroke {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 1px;
@@ -44,7 +52,7 @@ html {
 }
 
 .mix-blend-bg {
-    mix-blend-mode: color-dodge;
+    mix-blend-mode: hard-light;
 }
 
 .mix-blend-light {
