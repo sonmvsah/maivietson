@@ -3,14 +3,15 @@
         <div class="md:container mx-auto flex flex-row bg-second-600 bg-auto h-[60px] md:h-[80px] w-full bg-no-repeat bg-center px-0 space-x-0 justify-between md:justify-around">
         <div class="basis-1/3 flex flex-row justify-between">
             <Nuxt-link
-                class="basis-1/6 my-auto mx-auto cursor-pointer scale-75 mt-[0.4rem] 1md:scale-[0.95] z-10" 
+                class="basis-1/6 my-auto mx-auto cursor-pointer  scale-75 mt-[0.4rem] 1md:scale-[0.95] z-10" 
                 to="/"
                 tag="img"
                 :src="'/images/icons-svg/logo-mvs-white.svg'"
 
             >
             </Nuxt-link> 
-                    <h1 class="hidden md:block text-white text-xl my-auto basis-2/3">MAI VIỆT SƠN</h1>
+                    <h1 
+                    class="hidden md:block text-white text-xl my-auto basis-2/3 cursor-pointer">MAI VIỆT SƠN</h1>
 
 <!-- 
             <Nuxt-link
@@ -68,22 +69,22 @@
             </div>
             <Nuxt-link
             class="text-[0.7rem] tracking-widest my-auto d-container text-white hidden md:block" 
-            to="/products"
+            to="/"
             >
-            SẢN PHẨM
+            TRANG CHỦ
             </Nuxt-link>
 
             <Nuxt-link
             class="text-[0.7rem] tracking-widest my-auto d-container text-white hidden md:block" 
-            to="/blog"
+            to="/about"
             >
-            BLOG
+            VỀ TÔI
             </Nuxt-link>
             <Nuxt-link
             class="text-xs tracking-widest my-auto d-container text-white hidden md:block" 
             to="/lien-he"
             >
-            LIÊN HỆ
+            BLOG
             </Nuxt-link>
              <div class="my-auto">
                  <Nuxt-link
